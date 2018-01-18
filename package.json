@@ -1,0 +1,31 @@
+{
+  "name": "rosie-the-maid",
+  "version": "1.0.0",
+  "description": "A simple discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgparker/rosie-the-maid.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Dylan Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgparker/rosie-the-maid/issues"
+  },
+  "homepage": "https://github.com/dgparker/rosie-the-maid#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "discord.js-commando": "github:gawdl3y/discord.js-commando#11.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.4",
+    "ytdl-core": "^0.18.2"
+  }
+}
